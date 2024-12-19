@@ -1,0 +1,15 @@
+.textEditor {
+    border: 1px solid gray;
+    min-height: 200px ;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.isActive{
+    background-color: black !important;
+    color: white !important;
+}
+
+.customButton{
+    padding: 5px !important;
+}

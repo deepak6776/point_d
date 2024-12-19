@@ -1,0 +1,21 @@
+.banner{
+  padding: 48px 24px;
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.bannerBg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/communityGradient.svg');
+}
+
+
+
+@media(min-width: 900px){
+  .banner{
+    padding: 48px 64px;
+  }
+}

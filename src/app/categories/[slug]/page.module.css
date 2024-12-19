@@ -1,0 +1,25 @@
+.card{
+  position:relative;
+  /* border: 2px solid transparent !important; */
+  border-radius: 16px;
+  padding: 2px;
+  height: 100%;
+  /* margin:auto; */
+  overflow: hidden;
+  /* box-sizing: border-box;
+  background-clip: padding-box; */
+}
+
+
+.card::before{
+  content: " ";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: -1;
+  border-radius: inherit;
+  margin:-2px !important;
+  background: linear-gradient(to bottom, #ADC4EB, #B5C2E3, #BFEFF5)
+}

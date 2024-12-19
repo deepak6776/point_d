@@ -1,0 +1,29 @@
+.card{
+  position: relative;
+  border: 2px solid transparent !important;
+  border-radius: 24px;
+  /* padding: 30px; */
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  background-clip: padding-box;
+}
+
+.card:hover{
+  background-color: #F7FAFE;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+.card::before{
+  content: " ";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: -1;
+  border-radius: inherit;
+  margin:-2px !important;
+  background: linear-gradient(to bottom, #ADC4EB, #B5C2E3, #BFEFF5)
+}
